@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Chris's Website</title>
+    <link rel="stylesheet" href="/styles/nav.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/projects.css">
+    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <nav></nav>
+    <div id="main-container">
+        <div class="sidebar"></div>
+        <main>
+            <h1>Projects</h1>
+            <div id="project-list">
+                <a href="/project-pages/pso-project.html" class="project-link">
+                    <img src="/images/pso_thumbnail.png" alt="particle swarm optimization">
+                    <p>Particle Swarm Optimization</p>
+                </a>
+                <a href="/project-pages/sd-project.html" class="project-link">
+                    <img src="/images/project-placeholder.png">
+                    <p>Mechanical Engineering Senior Design</p>
+                </a>
+            </div>
+        </main>
+        <div class="sidebar"></div>
+    </div>
+
+    <script>
+        $(function () {
+            $("nav").load("/nav.html");
+        });
+    </script>
+</body>
+
+</html>

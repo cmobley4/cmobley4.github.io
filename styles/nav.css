@@ -1,0 +1,36 @@
+/*
+    Color Palette
+
+    green-gray:     #687864
+    dark-teal:      #31708E
+    air-force-blue: #5085A5
+    pale-cerulean:  #8FC1E3
+    ghost-white:    #F7F9FB
+
+    source: https://visme.co/blog/website-color-schemes/ (number 30)
+*/
+
+nav {
+    position: fixed;
+    top: 0px; left: 0px;
+    background-color: #5085a5;
+    height: 75px;
+    width: 100%;
+    min-width: 650px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.nav-button {
+    height: 100%;
+    border: none;
+    font-size: 25px;
+    color: #F7F9FB;
+    background-color: #5085a5;
+    padding: 0px 15px;
+}
+
+.nav-button:hover {
+    background-color: #31708e;
+}

@@ -1,0 +1,24 @@
+main h1 {
+    width: 100%;
+    height: 1em;
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+}
+
+#gallery div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#gallery div img {
+    width: 90%;
+    height: auto;
+    margin: 0px 5%;
+}
+
+#gallery div h3 {
+    text-align: center;
+}

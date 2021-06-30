@@ -1,0 +1,27 @@
+main header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+main header h1 {
+    height: 1em;
+    margin: auto 0px;
+}
+
+main p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+#profile-photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#idle-anim {
+    position: fixed;
+    top: 75px;
+    z-index: -1;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Chris's Website</title>
+    <link rel="stylesheet" href="/styles/nav.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="/scripts/boids.js"></script> -->
+</head>
+
+<body onload="init();">
+    <nav></nav>
+    <div id="main-container">
+        <div class="sidebar"></div>
+        <main>
+            <header id="prof-title">
+                <img src="/images/profile-photo.png" alt="Chris Mobley Profile Photo" id="profile-photo">
+                <h1>Chris Mobley</h1>
+            </header>
+            <p>
+                Hello there, I'm Chris Mobley! I am from Knoxville, Tennessee, and I have bachelor's degrees
+                in Mechanical Engineering and Computer Science from the University of Tennessee. My computer
+                science interests include data science, simulation, and web development. I have experience
+                coding in Python, C, C++, and JavaScript as well as writing HTML, CSS, and SQL queries as
+                well as modeling in SolidWorks.
+            </p>
+            <p>
+                In my free time I enjoy playing Dungeons & Dragons, trying out new recipes, and playing with
+                my cat, Carl.
+            </p>
+        </main>
+        <div class="sidebar"></div>
+    </div>
+
+    <!-- <canvas id="idle-anim"></canvas> -->
+
+    <script>
+        $(function () {
+            $("nav").load("/nav.html");
+        });
+    </script>
+</body>
+
+</html>
