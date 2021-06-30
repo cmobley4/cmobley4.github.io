@@ -31,3 +31,9 @@ main h1 {
 .project-link:active {
     text-decoration: none;
 }
+
+.project-link img {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
