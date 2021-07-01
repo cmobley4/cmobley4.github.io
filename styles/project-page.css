@@ -4,6 +4,10 @@ main h1 {
     text-align: center;
 }
 
+main p {
+    text-align: justify;
+}
+
 #gallery {
     display: flex;
 }
