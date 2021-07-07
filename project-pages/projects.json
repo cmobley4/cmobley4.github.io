@@ -6,13 +6,11 @@
         "gallery": [
             {
                 "label": "Optimization Problem 1",
-                "image": "/images/pso_q1_action.gif",
-                "alt": "animation of optimization problem 1"
+                "image": "/images/pso_q1_action.gif"
             },
             {
                 "label":"Optimization Problem 2",
-                "image":"/images/pso_q2_action.gif",
-                "alt": "animation of optimization problem 2"
+                "image":"/images/pso_q2_action.gif"
             }
         ],
         "misc": [
@@ -21,7 +19,7 @@
                 "link": "https://github.com/cmobley4/ParticleSwarmOptimization"
             },
             {
-                "label": "report",
+                "label": "project report",
                 "link": "/project-pages/pso-report.pdf"
             }
         ]
@@ -42,7 +40,7 @@
         ],
         "misc": [
             {
-                "label": "report",
+                "label": "project report",
                 "link": "/project-pages/sd-report.pdf"
             },
             {
